@@ -126,7 +126,7 @@ function updateCountdown() {
 // ====================
 // KONFIGURASI WAKTU VOTING (BARU)
 // ====================
-const startTime = new Date('2025-12-01T00:00:00+07:00'); // Waktu mulai: 1 Desember 2025, 08:00 WIB
+const startTime = new Date('2025-12-01T01:00:00+07:00'); // Waktu mulai: 1 Desember 2025, 08:00 WIB
 const endTime = new Date('2025-12-01T14:00:00+07:00');   // Waktu selesai: 1 Desember 2025, 15:00 WIB
 
 // Fungsi untuk cek apakah voting sedang terbuka (DENGAN WAKTU AKURAT)
@@ -659,3 +659,4 @@ if (logoutResultsBtn) logoutResultsBtn.addEventListener("click", (e) => logout(e
 // INISIALISASI
 // ====================
 showPage("loginForm");
+
